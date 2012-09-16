@@ -1,0 +1,15 @@
+module BangbotConf
+  # Just edit the ruby hash below to change the settings.
+  def get_config
+    {
+      :realname => "Bangbot",
+      :user     => "Bangbot", 
+      :server   => "irc.freenode.net",
+      :nickname => "bangbotdefaultnick", # bot nickname
+      :nickservpass => nil, # set this if you use a nickserv password
+      :channels => [ "#testtestdefaultchannel" ],
+      :dbname => "bangbot",
+      :tablename => "test_jsonz"
+    }
+  end
+end
